@@ -1,0 +1,61 @@
+# 🔒 Do not commit your secrets
+.env
+
+# 🐍 Python bytecode / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 📦 Virtual environment (common names)
+venv/
+env/
+.venv/
+.env/
+.ENV/
+
+# 🗑️ VSCode, PyCharm, or IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 📄 MacOS and Windows junk
+.DS_Store
+Thumbs.db
+
+# 📂 Log and debug files
+*.log
+
+# 📦 pip package log files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 📁 Test coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+.cache
+
+# 🐳 Docker / container files (optional if not used)
+*.dockerfile
+docker-compose.yml
+
+# 📦 Distribution packages
+dist/
+build/
+*.egg-info/
+
+# 🚀 PyInstaller
+*.spec
+
+# 🔍 MyPy or other type checking
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# 🔍 Pylint, Pyright, Ruff
+.pylint.d/
+.pyright/
+ruff_cache/
